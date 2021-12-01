@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Top 2 films</h1>
+      <hr>
+
+      <!-- Barre de navigation-->
+      <nav>
+        <ul>
+          <li class="btn">Films
+            <ul>
+              <li><a href="https://fr.wikipedia.org/wiki/Film_d%27action" target="blank">Action</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Drame_(cinéma)#:~:text=Le%20drame%20est%20un%20genre,drame%20évoque%20étymologiquement%20l%27action." target="blank">Drame</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Romance_(genre_litt%C3%A9raire)" target="blank">Romance</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Horreur_(littérature)" target="blank">Horreur</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Comédie#:~:text=La%20comédie%20(du%20grec%20κωμωδία,diversifiée%20en%20fonction%20des%20époques." target="blank">Comédie</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Histoire_du_genre#:~:text=L%27histoire%20du%20genre%20est,comme%20construction%20sociale%2C%20ou%20genre." target="blank">Historique</a></li>
+            </ul>
+          </li>
+          <li class="btn">Jeux
+            <ul>
+              <li> <a href="https://fr.wikipedia.org/wiki/Jeu_de_tir_à_la_première_personne" target="blank">FPS</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Jeu_vidéo_de_course" target="blank">Course</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Jeu_vidéo_de_rôle" target="blank">RPG</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Jeu_de_rôle_en_ligne_massivement_multijoueur" target="blank">MMORPG</a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Jeu_de_simulation" target="blank">Simulation </a></li>
+              <li> <a href="https://fr.wikipedia.org/wiki/Arène_de_bataille_en_ligne_multijoueur" target="blank">Moba</a> </li>
+
+            </ul>
+          </li>
+
+        </ul>
+      </nav>
+    </header>
+    <table>
+      <tr>
+        <td>
+          <p> <b>Peaky Blinders</b></p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/lMvKiahU_Ng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </td>
+        <td width="20%">
+          <div>Thomas Shelby est le boss d'une gang de rue <br>
+            1. Il est riche<br>
+            2. Il s'habille bien <br>
+            3. Cest Cillian Murphy come on<br>
+          </div>
+        </td>
+        <td width="20%"> <i>"Everyone's a wh*re Grace, we just sell different parts of ourselves."</i></td>
+      </tr>
+      <tr>
+        <td>
+          <p> <b>Star Wars:Revenge of the Sith</b><iframe width="560" height="315" src="https://www.youtube.com/embed/rEq1Z0bjdwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+          clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </td>
+        <td>
+          <div>Obi-Wan salut Grevous comme un gentleman <br>
+            1. Il est puissant<br>
+            2. Il est pratiquement space jesus<br>
+            3. Il a abandonner le high ground, mauvaise idée<br> </div>
+        </td>
+        <td><i>"Hello there"<br> "General Kenobi!"<br>
+            <audio controls loop>
+              <source src="Media/Audio/College Lionel-Groulx.m4a">
+            </audio> </i></td>
+
+      </tr>
+    </table>
+  </body>
+
+</html>
